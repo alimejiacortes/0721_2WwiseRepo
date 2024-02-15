@@ -1651,9 +1651,10 @@
 								</Effect>
 								<Effect Name="Few_Even_Harm_Peaks" ID="{63235485-F861-422B-91D5-B5545F7FEE21}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="0.4"/>
-										<Property Name="EnableLFO" Type="bool" Value="False"/>
+										<Property Name="DelayTime" Type="Real32" Value="43.3"/>
 										<Property Name="FeedBackLevel" Type="Real32" Value="-0.95"/>
+										<Property Name="ModDepth" Type="Real32" Value="26.8"/>
+										<Property Name="ModFrequency" Type="Real32" Value="18.96"/>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Many_Even_Harm_Notches" ID="{A7113535-F7D6-4B83-9DCB-01DD88295F76}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
