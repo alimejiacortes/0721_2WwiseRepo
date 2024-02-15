@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5117DE27-1482-414B-A152-9DD4F60725AF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Mejia" ID="{5117DE27-1482-414B-A152-9DD4F60725AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="cracker" ID="{0C48391C-A3EF-4DB9-B002-32B8A66DC3DB}" ShortID="965016076">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND14106"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1708032264tVi_yiuJjiCnXwLxGbN&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND14106/sfy_betRjyxHcOnUSgTIiiwMnQMuwIGuBD"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="4.645333333333333"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/admin/Documents/Soundly Audio/Destruction, Crash   Debris, Car Crash, Heavy, Glass Break 02 SND14106.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96738CE5-3945-42B4-8879-BB610CC53BD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F6013A7-C6C6-4487-9698-E029FC185D38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Destruction, Crash   Debris, Car Crash, Heavy, Glass Break 02 SND14106" ID="{B6252E7E-4CD0-481B-BEC1-217CC426EE53}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND14106"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Destruction, Crash   Debris, Car Crash, Heavy, Glass Break 02 SND14106.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="928371692"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Destruction, Crash   Debris, Car Crash, Heavy, Glass Break 02 SND14106" ID="{B6252E7E-4CD0-481B-BEC1-217CC426EE53}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
