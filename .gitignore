@@ -8,3 +8,5 @@ RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.wsettings
 .DS_Store
+*.validationcache
+*.wsettings
