@@ -4,6 +4,4 @@ RepoTest/.cache/LMDB/data.mdb
 RepoTest/.cache/LMDB/lock.mdb
 RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.validationcache
-RepoTest/RepoTest.crossover.wsettings
-RepoTest/RepoTest.crossover.wsettings
-RepoTest/RepoTest.crossover.wsettings
+RepoTest/RepoTest.crossover.validationcache

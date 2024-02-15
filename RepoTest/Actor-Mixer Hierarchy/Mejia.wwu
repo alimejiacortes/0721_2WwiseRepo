@@ -45,6 +45,60 @@
 						<ActiveSource Name="Destruction, Crash   Debris, Car Crash, Heavy, Glass Break 02 SND14106" ID="{B6252E7E-4CD0-481B-BEC1-217CC426EE53}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Fireplace" ID="{F01BA418-8E99-4AC0-9C37-83B05C952242}" ShortID="547099499">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>13</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-810</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND35555"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1708032264tVi_yiuJjiCnXwLxGbN&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND35555/sfy_sTpGVmlWKWUhjvNrMMAbQAfSsVgdtF"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="31.5"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/admin/Documents/Soundly Audio/Fire, Ignite, Matches, Put Out, Close Up SND35555.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.22875399361022364"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.3233226837060703"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96738CE5-3945-42B4-8879-BB610CC53BD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F6013A7-C6C6-4487-9698-E029FC185D38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fire, Ignite, Matches, Put Out, Close Up SND35555" ID="{F7145F15-B19E-4869-BF10-9F569E8A2AE4}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND35555"/>
+								<Property Name="TrimBegin" Type="Real64" Value="7.20575079872205"/>
+								<Property Name="TrimEnd" Type="Real64" Value="10.1846645367412"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Fire, Ignite, Matches, Put Out, Close Up SND35555.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="557154696"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fire, Ignite, Matches, Put Out, Close Up SND35555" ID="{F7145F15-B19E-4869-BF10-9F569E8A2AE4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
