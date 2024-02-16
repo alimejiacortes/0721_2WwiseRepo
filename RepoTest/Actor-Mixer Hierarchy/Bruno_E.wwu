@@ -4,6 +4,18 @@
 		<WorkUnit Name="Bruno_E" ID="{B3BC8C5D-AB9C-4078-941E-73A19412F1C1}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Enemigos" ID="{2B7E466A-E3C5-4AFB-9764-12A89EF00275}" ShortID="954155921">
+					<PropertyList>
+						<Property Name="OutputBusHighpass" Type="int16">
+							<ValueList>
+								<Value>26</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OutputBusLowpass" Type="int16">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96738CE5-3945-42B4-8879-BB610CC53BD3}"/>
