@@ -7,3 +7,6 @@ RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.validationcache
 RepoTest/RepoTest.crossover.wsettings
+RepoTest/RepoTest.chico.wsettings
+RepoTest/RepoTest.chico.validationcache
+*.wsettings
